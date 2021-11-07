@@ -21,25 +21,31 @@
                 </a>
             </div>
         </div> 
-        <div class="col-md-4">
-            <div class="card"><a href="https://sequematic.com/trigger-custom-webhook/69F02D122B/77241">
-                <img class="card-img-top" src="img/lightson.png">
+            <div class="card">
+                <img class="card-img-top" id='TurnOn' onclick="TurnOn()" src="img/lightson.png">
                     <div class="card-body">
                         <h4 class="card-title">Lights on</h4>
                     </div>
                 </a>
+                <button id='KiOn' onclick="KiOn()">Kitchen Light</button>
+                <button id='MiOn' onclick="MiOn()">Main Light</button>
+                <button id='NiOn' onclick="NiOn()">Nightstand</button>
+                <button id='FanOn' onclick="FanOn()">Fan</button>
             </div>
+            <div class="card" id='TurnOff' onclick="TurnOff()">
+              <img class="card-img-top" src="img/lightoff.png">
+                  <div class="card-body">
+                      <h4 class="card-title">Lights off</h4>
+                  </div>
+              </a>
+              <button id='KiOff' onclick="KiOff()">Kitchen Light</button>
+              <button id='MiOff' onclick="MiOff()">Main Light</button>
+              <button id='NiOff' onclick="NiOff()">Nightstand</button>
+              <button id='FanTurnOff' onclick="FanTurnOff()">Fan</button>
         </div> 
-        <div class="col-md-4">
-            <div class="card"><a href="https://sequematic.com/trigger-custom-webhook/69F02D122B/77239">
-                <img class="card-img-top" src="img/lightoff.png">
-                    <div class="card-body">
-                        <h4 class="card-title">Lights off</h4>
-                    </div>
-                </a>
-            </div>
-        </div> 
+       
     </div>
 </div>
+<script src="buttonOn.js"></script>
 </body>
 </html>
