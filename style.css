@@ -3,7 +3,7 @@ body {
   width: 100%;
   font-family: 'Alata', sans-serif;
   color: #2D3319;
-  background-color: #ECFFF8;
+  background-color: #ffffff;
 }
 
 navbar {
@@ -105,15 +105,17 @@ navbar {
 
 .card {
   background-color: #343A40;
-  width: 12rem;s
+  width: 12rem;s;
 }
 
 .card-text {
   color: white;
+  text-align: center;
 }
 
 .card-title {
   color: white;
+  text-align: center;
 }
 
 .btn.btn-outline-secondary {
@@ -243,6 +245,8 @@ margin-left:-4px;
 .col-md-3 img{
 width:100%;
 height:auto;
+}
+]
 }
 body .carousel-indicators li{
 background-color:black;
