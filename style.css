@@ -16,7 +16,7 @@ navbar {
 }
 
 .nav-link {
-  font-size: 1em !important !;
+  font-size: 1em !important;
 
 }
 
@@ -104,7 +104,7 @@ navbar {
 }
 
 .card {
-  background-color: #343A40;
+  background-color: #0051a1;
   width: 12rem;s;
 }
 
