@@ -11,9 +11,7 @@ navbar {
   color: blue;
 }
 
-.navbar-nav li {
-  padding-right: 3px;
-}
+
 
 .nav-link {
   font-size: 1em !important;
@@ -54,7 +52,7 @@ navbar {
 
 .btn-primary {
   opacity: 40%;
-  background-color: #343A40;
+  background-color: #000000;
   border: 1px solid #6648b1;
 }
 
@@ -64,48 +62,17 @@ navbar {
   border: 1px solid #563d7c;
 }
 
-.padding {
-  padding-bottom: 2rem;
+
+.jumbotron{
+  background-color: white;
+  height: 10rem;
+  text-decoration-color: black;
 }
 
-.welcome {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 2rem;
-}
-
-.welcome hr {
-  border-top: 1px solid #b4b4b4;
-  width 95%;
-  margin-top: .3rem;
-  margin-bottom: 3rem;
-}
-
-.social a {
-  font-size: 2.5em;
-  padding: 3rem;
-}
-
-.fa-facebook {
-  color: #3b5998;
-
-}
-
-.fa.google-plus-g {
-  color: #dd4b39;
-}
-
-.fa-insagram {
-  color: #517fa4;
-}
-
-.fa-youtube {
-  color: #bb0000;
-}
 
 .card {
   background-color: #0051a1;
-  width: 12rem;s;
+  width: 8rem;
 }
 
 .card-text {
@@ -114,148 +81,17 @@ navbar {
 }
 
 .card-title {
-  color: white;
+  color: black;
   text-align: center;
 }
 
-.btn.btn-outline-secondary {
-  color: #93B7BE;
 
-}
 
-.btn.btn-outline-secondary:hover {
-
-  background-color: #E1EFE6;
-
-  color: #343A40;
-
-}
-
-.h1-display-4 {
-  background-color: blue;
-
-}
-
-footer {
-  position: center;
-  background-color: #343A40;
-
-  color: #d5d5d5;
-  padding-top: 2rem;
-  text-align: center:
-}
-
-hr {
-  opacity: 50%;
-}
-
-hr.light {
-  border-top: 1px solid #d5d5d5;
-  width: 100%;
-}
-
-.fixed-wrap {
-  opacity: 50%;
-
-}
 
 .card:hover {
   -webkit-box-shadow: 1px 9px 40px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 9px 40px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 9px 40px -12px rgba(0, 0, 0, 0.75);
 
-}
-
-/*---Media Queries --*/
-@media (max-width: 992px) {}
-
-@media (max-width: 768px) {}
-
-@media (max-width: 576px) {}
 
 
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
-
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0 !important;
-}
-
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform;
-}
-
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-  padding: 1rem;
-}
-
-
-* {
-  border: 0;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  font-size: calc(16px + (24 - 16)*(100vw - 320px)/ (1920 - 320));
-}
-
-
-/** Container **/
-
-
-
-.col-md-3{
-display: inline-block;
-margin-left:-4px;
-}
-.col-md-3 img{
-width:100%;
-height:auto;
-}
-]
-}
-body .carousel-indicators li{
-background-color:black;
-}
-body .carousel-control-prev-icon,
-body .carousel-control-next-icon{
-background-color:red;
-}
-body .no-padding{
-padding-left: 0;
-padding-right: 0;
-}

@@ -8,43 +8,51 @@
 </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="style.css" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Mochiy Pop P One" rel="stylesheet">
 <body>
-
-    <div class="card">
-  <h4>Zonar's Studio</h4>
-  <img class="card-img-top" src="img/boxyellow.gif">
-  </div>
+  <img class="card-img-top" src="img/home.gif" style="width:100%">
   <div class="section2" class="container-fluid padding">
     <div class="row padding">
-        <div class="col-md-8">
-            
+        <div class="col-md-8">  
         </div> 
-            <div class="card">
+            <div class="card text-white bg-info mb-3 border-dark mb-3">
                 <img class="card-img-top" id='TurnOn' onclick="TurnOn()" src="img/lightson.png">
                     <div class="card-body">
                         <h4 class="card-title">Lights on</h4>
                     </div>
                 </a>
-                <button id='KiOn' onclick="KiOn()">Kitchen Light</button>
-                <button id='MiOn' onclick="MiOn()">Main Light</button>
-                <button id='NiOn' onclick="NiOn()">Nightstand</button>
-                <button id='FanOn' onclick="FanOn()">Fan</button>
+                <button type="button" class="btn btn-primary" id='KiOn' onclick="KiOn()">Kitchen Light</button>
+                <button type="button" class="btn btn-primary" id='MiOn' onclick="MiOn()">Main Light</button>
+                <button type="button" class="btn btn-primary" id='NiOn' onclick="NiOn()">Nightstand</button>
+                <button type="button" class="btn btn-primary" id='FanOn' onclick="FanOn()">Fan</button>
             </div>
-            <div class="card" >
+          
+            <div class="card text-white bg-warning mb-3 border-dark mb-3">
               <img class="card-img-top" id='TurnOff' onclick="TurnOff()" src="img/lightoff.png">
                   <div class="card-body">
                       <h4 class="card-title">Lights off</h4>
                   </div>
               </a>
-              <button id='KiOff' onclick="KiOff()">Kitchen Light</button>
-              <button id='MiOff' onclick="MiOff()">Main Light</button>
-              <button id='NiOff' onclick="NiOff()">Nightstand</button>
-              <button id='FanTurnOff' onclick="FanTurnOff()">Fan</button>
+              <button type="button" class="btn btn-primary" id='KiOff' onclick="KiOff()">Kitchen Light</button>
+              <button type="button" class="btn btn-primary" id='MiOff' onclick="MiOff()">Main Light</button>
+              <button type="button" class="btn btn-primary" id='NiOff' onclick="NiOff()">Nightstand</button>
+              
+            <button type="button" class="btn btn-primary" id='FanTurnOff' onclick="FanTurnOff()">Fan</button>
+        
+        
         </div> 
-       
+        <div class="card text-white bg-info mb-3 border-dark mb-3">
+            <img class="card-img-top" id='TurnOn' onclick="FanOn()" src="img/lightson.png">
+                <div class="card-body">
+                    <h4 class="card-title">FanOn</h4>
+                </div>
+            </a>
+        </div>
     </div>
+
+
 </div>
+
 <script src="buttonOn.js"></script>
 </body>
 </html>
